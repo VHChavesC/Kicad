@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Circuito Exemplo SECOMP UFSCar - "
+Date "2019-09-12"
+Rev "Versão 1.0"
 Comp ""
 Comment1 ""
 Comment2 ""

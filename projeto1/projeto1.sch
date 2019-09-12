@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:projeto1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -429,102 +430,27 @@ Wire Wire Line
 Wire Wire Line
 	4450 1900 4450 2000
 $Comp
-L Connector_Generic:Conn_01x10 J2
-U 1 1 5D7B5850
-P 6500 3000
-F 0 "J2" H 6580 2992 50  0000 L CNN
-F 1 "Conn_01x10" H 6580 2901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 6500 3000 50  0001 C CNN
-F 3 "~" H 6500 3000 50  0001 C CNN
-	1    6500 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 2600 6150 2600
-Wire Wire Line
-	6300 2700 6150 2700
-Wire Wire Line
-	6300 2800 6150 2800
-Wire Wire Line
-	6300 2900 6150 2900
-Wire Wire Line
-	6300 3000 6150 3000
-Wire Wire Line
-	6300 3100 6150 3100
-Wire Wire Line
-	6300 3200 6150 3200
-Wire Wire Line
-	6300 3300 6150 3300
-Wire Wire Line
-	6300 3400 6150 3400
-Wire Wire Line
-	6150 3400 6150 3500
-Wire Wire Line
-	6300 3500 6200 3500
-Wire Wire Line
-	6200 3500 6200 3600
-Wire Wire Line
-	6200 3600 6150 3600
-$Comp
 L Connector_Generic:Conn_01x10 J3
 U 1 1 5D7BB060
-P 6500 4200
-F 0 "J3" H 6580 4192 50  0000 L CNN
-F 1 "Conn_01x10" H 6580 4101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 6500 4200 50  0001 C CNN
-F 3 "~" H 6500 4200 50  0001 C CNN
-	1    6500 4200
+P 8350 4250
+F 0 "J3" H 8430 4242 50  0000 L CNN
+F 1 "Conn_01x10" H 8430 4151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8350 4250 50  0001 C CNN
+F 3 "~" H 8350 4250 50  0001 C CNN
+	1    8350 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 3800 6300 3800
-Wire Wire Line
-	6300 3900 6150 3900
-Wire Wire Line
-	6300 4000 6150 4000
-Wire Wire Line
-	6300 4100 6150 4100
-Wire Wire Line
-	6300 4200 6150 4200
-Wire Wire Line
-	6150 4300 6300 4300
-Wire Wire Line
-	6300 4400 6150 4400
-Wire Wire Line
-	6150 4500 6300 4500
-Wire Wire Line
-	6300 4600 6150 4600
-Wire Wire Line
-	6150 4600 6150 4700
-Wire Wire Line
-	6300 4700 6200 4700
-Wire Wire Line
-	6200 4700 6200 4800
-Wire Wire Line
-	6200 4800 6150 4800
 $Comp
 L Connector_Generic:Conn_01x06 J4
 U 1 1 5D7C54FC
-P 6500 5200
-F 0 "J4" H 6580 5192 50  0000 L CNN
-F 1 "Conn_01x06" H 6580 5101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6500 5200 50  0001 C CNN
-F 3 "~" H 6500 5200 50  0001 C CNN
-	1    6500 5200
+P 8350 5250
+F 0 "J4" H 8430 5242 50  0000 L CNN
+F 1 "Conn_01x06" H 8430 5151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8350 5250 50  0001 C CNN
+F 3 "~" H 8350 5250 50  0001 C CNN
+	1    8350 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 5000 6150 5000
-Wire Wire Line
-	6300 5100 6150 5100
-Wire Wire Line
-	6150 5200 6300 5200
-Wire Wire Line
-	6300 5300 6150 5300
-Wire Wire Line
-	6150 5400 6300 5400
-Wire Wire Line
-	6300 5500 6150 5500
 Connection ~ 4450 3050
 Connection ~ 4450 2750
 $Comp
@@ -538,4 +464,223 @@ F 3 "~" H 4450 2900 50  0001 C CNN
 	1    4450 2900
 	0    1    1    0   
 $EndComp
+Text GLabel 6200 2600 2    39   Input ~ 0
+Pino8
+Text GLabel 6200 2700 2    39   Input ~ 0
+Pino9
+Text GLabel 6200 2800 2    39   Input ~ 0
+Pino10
+Text GLabel 6200 2900 2    39   Input ~ 0
+Pino11
+Text GLabel 8050 2650 0    39   Input ~ 0
+Pino10
+Text GLabel 8000 2750 0    39   Input ~ 0
+Pino9
+Text GLabel 8000 2850 0    39   Input ~ 0
+Pino8
+Wire Wire Line
+	6200 2900 6150 2900
+Wire Wire Line
+	6150 2800 6200 2800
+Wire Wire Line
+	6200 2700 6150 2700
+Wire Wire Line
+	6150 2600 6200 2600
+Text GLabel 6250 5300 2    39   Input ~ 0
+Pino38
+Text GLabel 6250 5400 2    39   Input ~ 0
+Pino37
+Text GLabel 6250 5500 2    39   Input ~ 0
+Pino36
+Text GLabel 6250 5200 2    39   Input ~ 0
+Pino39
+Text GLabel 6250 5100 2    39   Input ~ 0
+Pino40
+Text GLabel 6250 5000 2    39   Input ~ 0
+Pino41
+Wire Wire Line
+	6250 5300 6150 5300
+Text GLabel 6250 3600 2    39   Input ~ 0
+Pino32
+Text GLabel 6250 3500 2    39   Input ~ 0
+Pino31
+Text GLabel 6250 3300 2    39   Input ~ 0
+Pino12
+Text GLabel 6250 3200 2    39   Input ~ 0
+Pino30
+Text GLabel 6250 3100 2    39   Input ~ 0
+Pino29
+Text GLabel 6250 3000 2    39   Input ~ 0
+Pino28
+Wire Wire Line
+	6150 3000 6250 3000
+Wire Wire Line
+	6150 3100 6250 3100
+Wire Wire Line
+	6150 3200 6250 3200
+Wire Wire Line
+	6250 3300 6150 3300
+Wire Wire Line
+	6150 3500 6250 3500
+Wire Wire Line
+	6250 3600 6150 3600
+Text GLabel 7950 4650 0    39   Input ~ 0
+Pino32
+Wire Wire Line
+	7950 4650 8150 4650
+Text GLabel 7950 4550 0    39   Input ~ 0
+Pino31
+Wire Wire Line
+	7950 4550 8150 4550
+Text GLabel 7950 4450 0    39   Input ~ 0
+Pino30
+Wire Wire Line
+	7950 4450 8150 4450
+Text GLabel 7950 4350 0    39   Input ~ 0
+Pino29
+Wire Wire Line
+	7950 4350 8150 4350
+Text GLabel 7900 4250 0    39   Input ~ 0
+Pino28
+Wire Wire Line
+	7900 4250 8150 4250
+Text GLabel 6250 4500 2    39   Input ~ 0
+Pino27
+Text GLabel 6250 4400 2    39   Input ~ 0
+Pino26
+Text GLabel 6250 4300 2    39   Input ~ 0
+Pino22
+Text GLabel 6250 4200 2    39   Input ~ 0
+Pino25
+Text GLabel 6250 4100 2    39   Input ~ 0
+Pino21
+Text GLabel 6250 4000 2    39   Input ~ 0
+Pino20
+Text GLabel 6250 3900 2    39   Input ~ 0
+Pino19
+Text GLabel 6250 3800 2    39   Input ~ 0
+Pino18
+Wire Wire Line
+	6150 3800 6250 3800
+Wire Wire Line
+	6250 3900 6150 3900
+Wire Wire Line
+	6150 4000 6250 4000
+Wire Wire Line
+	6250 4100 6150 4100
+Wire Wire Line
+	6150 4200 6250 4200
+Wire Wire Line
+	6250 4300 6150 4300
+Wire Wire Line
+	6250 4400 6150 4400
+Wire Wire Line
+	6150 4500 6250 4500
+Wire Wire Line
+	6250 5000 6150 5000
+Wire Wire Line
+	6150 5100 6250 5100
+Wire Wire Line
+	6250 5200 6150 5200
+Wire Wire Line
+	6150 5400 6250 5400
+Wire Wire Line
+	6250 5500 6150 5500
+Text GLabel 7900 4150 0    39   Input ~ 0
+Pino27
+Wire Wire Line
+	7900 4150 8150 4150
+Text GLabel 7850 4050 0    39   Input ~ 0
+Pino26
+Wire Wire Line
+	7850 4050 8150 4050
+Text GLabel 7850 3950 0    39   Input ~ 0
+Pino25
+Wire Wire Line
+	7850 3950 8150 3950
+Text GLabel 7850 3850 0    39   Input ~ 0
+Pino22
+Wire Wire Line
+	7850 3850 8150 3850
+Text GLabel 8000 3450 0    39   Input ~ 0
+Pino36
+Text GLabel 7900 5550 0    39   Input ~ 0
+Pino21
+Wire Wire Line
+	7900 5550 8150 5550
+Text GLabel 7900 5450 0    39   Input ~ 0
+Pino20
+Wire Wire Line
+	7900 5450 8150 5450
+Text GLabel 7900 5350 0    39   Input ~ 0
+Pino19
+Wire Wire Line
+	7900 5350 8150 5350
+Text GLabel 7900 5250 0    39   Input ~ 0
+Pino18
+Wire Wire Line
+	7900 5250 8150 5250
+Text GLabel 7900 5150 0    39   Input ~ 0
+Pino12
+Wire Wire Line
+	7900 5150 8150 5150
+Text GLabel 7900 5050 0    39   Input ~ 0
+Pino11
+Wire Wire Line
+	7900 5050 8150 5050
+Wire Wire Line
+	8050 2650 8150 2650
+Wire Wire Line
+	8000 2750 8150 2750
+Wire Wire Line
+	8000 2850 8150 2850
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5D7B5850
+P 8350 3050
+F 0 "J2" H 8430 3042 50  0000 L CNN
+F 1 "Conn_01x10" H 8430 2951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8350 3050 50  0001 C CNN
+F 3 "~" H 8350 3050 50  0001 C CNN
+	1    8350 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 2950 0    39   Input ~ 0
+Pino41
+Wire Wire Line
+	8000 2950 8150 2950
+Text GLabel 8000 3050 0    39   Input ~ 0
+Pino40
+Wire Wire Line
+	8150 3050 8000 3050
+Text GLabel 8000 3150 0    39   Input ~ 0
+Pino39
+Wire Wire Line
+	8000 3150 8150 3150
+Text GLabel 8000 3250 0    39   Input ~ 0
+Pino38
+Wire Wire Line
+	8000 3250 8150 3250
+Text GLabel 8000 3350 0    39   Input ~ 0
+Pino37
+Wire Wire Line
+	8000 3350 8150 3350
+Text GLabel 6250 4700 2    39   Input ~ 0
+Pino33
+Text GLabel 6250 4800 2    39   Input ~ 0
+Pino1
+Wire Wire Line
+	6250 4700 6150 4700
+Wire Wire Line
+	6150 4800 6250 4800
+Text GLabel 7950 4750 0    39   Input ~ 0
+Pino33
+Wire Wire Line
+	7950 4750 8150 4750
+Text GLabel 8000 3550 0    39   Input ~ 0
+Pino1
+Wire Wire Line
+	8000 3550 8150 3550
+Wire Wire Line
+	8000 3450 8150 3450
 $EndSCHEMATC
